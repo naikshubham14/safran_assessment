@@ -15,7 +15,7 @@ load_dotenv()
 # Page configuration
 st.set_page_config(page_title="Rule Checker", page_icon="🔍", layout="wide")
 
-def main()
+def main():
     def write_to_docx(results: dict, output_file="output.docx"):
         """
         Takes the results of the rule checker and writes them to a docx file
@@ -154,7 +154,7 @@ def main()
                         st.markdown(create_download_link(output_file), unsafe_allow_html=True)
 
 if __name__ == "__main__":
-    
+
     model_name = "en_core_web_sm"
     try:
         # Attempt to load the model
