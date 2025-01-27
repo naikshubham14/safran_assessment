@@ -154,15 +154,4 @@ def main():
                         st.markdown(create_download_link(output_file), unsafe_allow_html=True)
 
 if __name__ == "__main__":
-
-    model_name = "en_core_web_sm"
-    try:
-        # Attempt to load the model
-        spacy.load(model_name)
-        print(f"Model '{model_name}' is already downloaded.")
-    except OSError:
-        # If the model is not found, download it
-        print(f"Model '{model_name}' not found. Downloading...")
-        download(model_name)
-        print(f"Model '{model_name}' has been downloaded.")
     main()
