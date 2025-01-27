@@ -75,7 +75,7 @@ def main():
                 vert_align.set(qn("w:val"), "superscript")
                 rPr.append(vert_align)
 
-    def create_download_link(file_path, button_text="Download Word File"):
+    def create_download_link(file_path, button_text="Download Output File"):
         """
         Creates a download link for a file.
         
