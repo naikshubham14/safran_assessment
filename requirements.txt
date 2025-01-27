@@ -1,0 +1,5 @@
+spacy
+streamlit
+google-generativeai
+python-dotenv
+python-docx
