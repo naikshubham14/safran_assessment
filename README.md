@@ -23,9 +23,9 @@ It uses **spaCy** for NLP tasks and **Gemini** (optional) for contextual analysi
 - Libraries: `spaCy`, `streamlit`, `google-generativeai` (optional).
 
 ### Installation
-
+```bash
 python -m venv venv
-venv\Scripts\activate
+Windows: venv\Scripts\activate
 pip install -r requirements.txt
 python -m spacy download en_core_web_sm
 
