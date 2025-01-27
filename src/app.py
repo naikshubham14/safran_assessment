@@ -140,7 +140,7 @@ def main():
 
     # File input
     else:
-        uploaded_file = st.file_uploader("Upload a text file", type=["txt", "pdf"])
+        uploaded_file = st.file_uploader("Upload a text file", type=["txt"])
         if uploaded_file is not None:
             text = uploaded_file.read().decode("utf-8")
             st.text_area("File content:", text, height=200)

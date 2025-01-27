@@ -64,6 +64,15 @@ This module checks if input text complies with 5 predefined technical writing ru
 
 ---
 
+## I/O Fromats
+## Input
+- Input can be provided as either a text string in text box or as a .txt file upload 
+- The Input format can be selected from the toggle option in sidebar
+
+## Output
+- In case of text input, output will displayed on the same screen with each sentence annotated with identification number of all the rules the sentence violates
+- In case of file input output will be a downloadable docx file with the orginal text with each sentence annotated with identification number of all the rules the sentence violates
+
 ## Setup & Usage
 ### Prerequisites
 - Python 3.8+
