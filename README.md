@@ -28,9 +28,12 @@ python -m venv venv
 Windows: venv\Scripts\activate
 pip install -r requirements.txt
 python -m spacy download en_core_web_sm
+git clone https://github.com/yourusername/rule-checker.git
+cd rule-checker
+```
 
-### Installation
-1. Clone the repository:
-   ```bash
-   git clone https://github.com/yourusername/rule-checker.git
-   cd rule-checker
+### Deployment
+
+Deployed using streamlit cloud 
+
+[Click Here](https://safran-rule-checker.streamlit.app/)
