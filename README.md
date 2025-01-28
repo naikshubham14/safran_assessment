@@ -1,4 +1,4 @@
-# Safran Assessment - Rule Checker Module
+# Rule Checker Module
 
 ## Overview
 This project checks if technical writing adheres to 5 predefined rules:
